@@ -27,6 +27,7 @@ const router = createBrowserRouter([
       {
         path: "/allClasses",
         element: <AllClasses></AllClasses>,
+        loader: () => fetch('/data.json'),
       },
       {
         path: "/aboutUs",

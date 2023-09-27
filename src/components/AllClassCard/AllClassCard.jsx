@@ -3,25 +3,25 @@ import { FaCalendarAlt } from 'react-icons/fa';
 import { FaMoneyCheck } from 'react-icons/fa6';
 
 
-const InstrumentCard = ({ instrument }) => {
+const AllClassCard = ({ instrument }) => {
     const { image, instrumentName, description, durationMonths, price } = instrument;
     return (
-        <div className='shadow-xl rounded-xl'>
+        <div className='border-2 rounded-xl'>
             <img className='w-full h-48 rounded-t-xl' src={image} alt="" />
-            <div className='p-5'>
-                <h2 className='text-xl font-bold text-amber-600 mb-2'>{instrumentName} <span className='text-cyan-800'>Classes</span></h2>
+            <div className='p-5 text-start'>
+                <h2 className='text-xl font-bold text-amber-600 mb-2'>{instrumentName} <span className='text-white'>Classes</span></h2>
 
-                <p className='mb-6 text-sm h-16'>{description}</p>
+                <p className='mb-4 h-16 text-sm text-white'>{description}</p>
 
                 <div className='flex justify-between'>
                     <div>
                         <div className='flex gap-2 mb-1 text-sm'>
                             <div className='flex items-center text-amber-600'><FaCalendarAlt></FaCalendarAlt></div>
-                            <p>{durationMonths} Months</p>
+                            <p className='text-white'>{durationMonths} Months</p>
                         </div>
                         <div className='flex gap-2 text-sm'>
                             <div className='flex items-center text-amber-600'><FaMoneyCheck></FaMoneyCheck></div>
-                            <p>Price: ${price}</p>
+                            <p className='text-white'>Price: ${price}</p>
                         </div>
                     </div>
 
@@ -34,8 +34,8 @@ const InstrumentCard = ({ instrument }) => {
     );
 };
 
-InstrumentCard.propTypes = {
+AllClassCard.propTypes = {
     instrument: PropTypes.object,
 };
 
-export default InstrumentCard;
+export default AllClassCard;
