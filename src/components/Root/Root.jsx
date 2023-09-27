@@ -4,7 +4,7 @@ import Header from "../Header/Header";
 
 const Root = () => {
     return (
-        <div>
+        <div className="overflow-x-hidden">
             <Header></Header>
             <div>
                 <Outlet></Outlet>

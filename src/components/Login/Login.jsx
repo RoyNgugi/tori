@@ -4,13 +4,13 @@ const Login = () => {
         <div>
             <div className="hero" style={{ backgroundImage: 'url(/public/background.jpg)', backgroundAttachment: 'fixed' }}>
                 <div className="hero-overlay bg-black bg-opacity-75"></div>
-                <div className="hero-content text-center container mx-auto px-5">
-                    <div className="max-w-2xl py-32">
+                <div className="hero-content text-center container mx-auto">
+                    <div className="py-32">
                         <div>
                             <h1 className="mb-8 text-5xl font-bold"><span className="text-white">Login in <br /></span> <span className="text-amber-600">All Instrument Academy</span></h1>
                         </div>
-                        <div className="flex justify-center container mx-auto px-5 my-20">
-                            <div className="relative flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+                        <div className="flex justify-center my-20">
+                            <div className="relative flex  w-full flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
                                 <div className="relative mx-4 -mt-6 mb-4 grid h-28 place-items-center overflow-hidden rounded-xl bg-gradient-to-tr from-amber-600 to-amber-400 bg-clip-border text-white shadow-lg shadow-amber-500/40">
                                     <h3 className="block font-sans text-3xl font-semibold leading-snug tracking-normal text-white antialiased">
                                         Sign In

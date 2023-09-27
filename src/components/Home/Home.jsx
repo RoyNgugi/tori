@@ -1,6 +1,7 @@
-import { useLoaderData } from "react-router-dom";
+import { Link, useLoaderData } from "react-router-dom";
 import Banner from "../Banner/Banner";
 import InstrumentCard from "../InstrumentCard/InstrumentCard";
+import RecentPost from "../RecentPost/RecentPost";
 
 
 const Home = () => {
@@ -22,15 +23,19 @@ const Home = () => {
             <div className="container mx-auto px-5 mt-10 mb-20">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
                     {
-                        instruments.slice(0, 8).map(instrument => (<InstrumentCard key={instrument.id} instrument={instrument}></InstrumentCard>))
+                        instruments.slice(0, 4).map(instrument => (<InstrumentCard key={instrument.id} instrument={instrument}></InstrumentCard>))
                     }
                 </div>
                 <div>
                     <div className="flex justify-center mt-10">
-                        <button className="btn bg-cyan-800 text-white">Show All Classes</button>
+                        <Link to={`/allClasses/:id`}>
+                            <button className="btn bg-cyan-800 text-white">Show All Classes</button>
+                        </Link>
                     </div>
                 </div>
             </div>
+
+            <RecentPost></RecentPost>
         </div>
     );
 };

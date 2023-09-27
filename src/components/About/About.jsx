@@ -3,7 +3,7 @@ const About = () => {
         <div>
             <div className="hero" style={{ backgroundImage: 'url(/public/background.jpg)', backgroundAttachment: 'fixed' }}>
                 <div className="hero-overlay bg-black bg-opacity-75"></div>
-                <div className="hero-content text-center container mx-auto px-5">
+                <div className="hero-content text-center container mx-auto">
                     <div className="max-w-2xl py-44">
                         <h1 className="mb-8 text-5xl font-bold"><span className="text-white">About <br /></span> <span className="text-amber-600">All Instrument Academy</span></h1>
                         <p className="mb-5 text-white">Integer in justo euismod nulla feugiat lacinia non porta velit. Vestibulum vulputate purus sit amet vestibulum ultrices mauris malesuada.</p>
@@ -12,7 +12,7 @@ const About = () => {
             </div>
 
 
-            <div className="py-14 flex container mx-auto px-5 gap-10">
+            <div className="py-14 flex flex-col-reverse md:flex-col-reverse lg:flex-row container mx-auto px-5 gap-10">
                 <div>
                     <h2 className="text-4xl text-amber-600 font-bold mb-2">About <span className="text-cyan-800">Us</span></h2>
                     <div>
