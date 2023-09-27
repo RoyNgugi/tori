@@ -1,7 +1,6 @@
 import { Link, useLoaderData } from "react-router-dom";
 import Banner from "../Banner/Banner";
 import InstrumentCard from "../InstrumentCard/InstrumentCard";
-import RecentPost from "../RecentPost/RecentPost";
 
 
 const Home = () => {
@@ -34,8 +33,6 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-
-            <RecentPost></RecentPost>
         </div>
     );
 };

@@ -39,7 +39,7 @@ const Navbar = () => {
                     </div>
 
                     <div className="flex gap-3">
-                        <img className="w-24" src="/public/logo.png" alt="" />
+                        <img className="w-24" src="https://i.ibb.co/ZH9S3JW/logo.png" alt="" />
                         <div className="flex items-center">
                             <a className="font-bold text-xl md:text-2xl"><span className="text-amber-600">All Instrument </span> <span className="text-cyan-800">Academy</span></a>
                         </div>

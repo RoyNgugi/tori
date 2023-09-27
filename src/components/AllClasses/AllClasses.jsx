@@ -7,11 +7,11 @@ const AllClasses = () => {
 
     return (
         <div>
-            <div className="hero" style={{ backgroundImage: 'url(/public/background.jpg)', backgroundAttachment: 'fixed' }}>
+            <div className="hero" style={{ backgroundImage: 'url(https://i.ibb.co/bB93Y20/background.jpg)', backgroundAttachment: 'fixed' }}>
                 <div className="hero-overlay bg-black bg-opacity-75"></div>
                 <div className="container mx-auto  px-5 text-center">
                     <div className="py-10">
-                        <h1 className="mb-8 text-4xl font-bold"><span className="text-amber-600">Our All Classes</span></h1>
+                        <h1 className="mb-8 text-3xl md:text-4xl font-bold"><span className="text-amber-600">Our All Classes</span></h1>
 
                         <hr />
 
