@@ -1,6 +1,4 @@
-
-
-const Home = () => {
+const AllClasses = () => {
     return (
         <div>
             <h2>All classes</h2>
@@ -8,4 +6,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default AllClasses;
