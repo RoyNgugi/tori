@@ -1,10 +1,7 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
-import './index.css'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import './index.css';
 import Root from './components/Root/Root';
 import Home from './components/Home/Home';
 import AllClasses from './components/AllClasses/AllClasses';
@@ -15,43 +12,43 @@ import ErrorPage from './components/ErrorPage/ErrorPage';
 
 const router = createBrowserRouter([
   {
-    path: "/",
-    element: <Root></Root>,
-    errorElement: <ErrorPage></ErrorPage>,
+    path: '/',
+    element: <Root />,
+    errorElement: <ErrorPage />,
     children: [
       {
-        path: "/",
-        element: <Home></Home>,
+        path: '/',
+        element: <Home />,
         loader: () => fetch('/data.json'),
       },
       {
-        path: "/allClasses",
-        element: <AllClasses></AllClasses>,
+        path: '/allClasses',
+        element: <AllClasses />,
         loader: () => fetch('/data.json'),
       },
       {
-        path: "/allClasses/:id",
-        element: <AllClasses></AllClasses>,
+        path: '/allClasses/:id',
+        element: <AllClasses />,
         loader: () => fetch('/data.json'),
       },
       {
-        path: "/aboutUs",
-        element: <About></About>,
+        path: '/aboutUs',
+        element: <About />,
       },
       {
-        path: "/contactUs",
-        element: <Contact></Contact>,
+        path: '/contactUs',
+        element: <Contact />,
       },
       {
-        path: "/login",
-        element: <Login></Login>,
+        path: '/login',
+        element: <Login />,
       },
-    ]
+    ],
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <RouterProvider router={router} />
-  </React.StrictMode>,
-)
+  </React.StrictMode>
+);

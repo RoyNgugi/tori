@@ -21,7 +21,7 @@ const AllClassCard = ({ instrument }) => {
                         </div>
                         <div className='flex gap-2 text-sm'>
                             <div className='flex items-center text-amber-600'><FaMoneyCheck></FaMoneyCheck></div>
-                            <p className='text-white'>Price: ${price}</p>
+                            <p className='text-white'>Price: Ksh{price}</p>
                         </div>
                     </div>
 

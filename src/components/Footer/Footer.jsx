@@ -46,9 +46,7 @@ const Footer = () => {
                 </nav>
             </footer>
 
-            <div className="flex justify-center pt-5 pb-16 container mx-auto px-5">
-                <p>Copyright © 2023 - All right reserved by Ismat Jerin</p>
-            </div>
+            
         </div>
     );
 };

@@ -14,7 +14,7 @@ const Home = () => {
                 <h2 className="text-xl text-amber-600 font-bold text-center mb-2">Our Classes</h2>
                 <h1 className="text-4xl text-cyan-900 font-bold text-center mb-4">Most Popular Classes</h1>
                 <div className="flex justify-center">
-                    <p className="w-2/3 text-cyan-900 text-center">Pellentesque mattis mauris ac tortor volutpat, eu fermentum sapien euismod. <br /> In id tempus metus. Donec eu volutpat nibh, in maximus ligula.</p>
+                    <p className="w-2/3 text-cyan-900 text-center">Our most popular classes offer a dynamic blend of creativity and skill-building, providing students with a rewarding musical experience. <br /> With a focus on personalized instruction and a supportive learning environment, we ensure that each student reaches their full potential.</p>
                 </div>
             </div>
 
