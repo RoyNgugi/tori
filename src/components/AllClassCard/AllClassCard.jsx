@@ -4,7 +4,7 @@ import { FaMoneyCheck } from 'react-icons/fa6';
 
 
 const AllClassCard = ({ instrument }) => {
-    const { image, instrumentName, description, durationMonths, price } = instrument;
+    const { image, instrumentName, description, durationMonths, price, link } = instrument;
     return (
         <div className='border-2 rounded-xl'>
             <img className='w-full h-48 rounded-t-xl' src={image} alt="" />
@@ -26,7 +26,10 @@ const AllClassCard = ({ instrument }) => {
                     </div>
 
                     <div className='mb-4'>
-                        <button className='btn bg-amber-600 border-none text-white hover:bg-cyan-800 hover:shadow-xl'>More Info</button>
+                        <button className='btn bg-amber-600 border-none text-white hover:bg-cyan-800 hover:shadow-xl'
+                        button='button'
+                        onClick={() => navigate(link)}>
+                            More Info</button>
                     </div>
                 </div>
             </div>
