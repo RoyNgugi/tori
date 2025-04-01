@@ -1,10 +1,12 @@
 import PropTypes from 'prop-types';
 import { FaCalendarAlt } from 'react-icons/fa';
 import { FaMoneyCheck } from 'react-icons/fa6';
+import { useNavigate } from 'react-router-dom';
 
 
 const AllClassCard = ({ instrument }) => {
     const { image, instrumentName, description, durationMonths, price, link } = instrument;
+    const navigate = useNavigate();
     return (
         <div className='border-2 rounded-xl'>
             <img className='w-full h-48 rounded-t-xl' src={image} alt="" />
@@ -28,7 +30,7 @@ const AllClassCard = ({ instrument }) => {
                     <div className='mb-4'>
                         <button className='btn bg-amber-600 border-none text-white hover:bg-cyan-800 hover:shadow-xl'
                         button='button'
-                        onClick={() => navigate(link)}>
+                        onClick={() => navigate(instrument?.link)}>
                             More Info</button>
                     </div>
                 </div>

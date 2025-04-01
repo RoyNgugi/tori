@@ -2,14 +2,7 @@ const Footer = () => {
     return (
         <div className=" bg-cyan-950 text-gray-200">
             <footer className="footer p-10 container mx-auto px-5">
-                <nav>
-                    <header className="text-amber-600 font-bold text-xl ">Services</header>
-                    <a className="link link-hover">Branding</a>
-                    <a className="link link-hover">Design</a>
-                    <a className="link link-hover">Marketing</a>
-                    <a className="link link-hover">Advertisement</a>
-                </nav>
-                <nav>
+                               <nav>
                     <header className="text-amber-600 font-bold text-xl ">Company</header>
                     <a className="link link-hover">About us</a>
                     <a className="link link-hover">Contact</a>

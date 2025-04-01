@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { FaCalendarAlt } from 'react-icons/fa';
 import { FaMoneyCheck } from 'react-icons/fa6';
-import { NavLink, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const InstrumentCard = ({ instrument }) => {
     const navigate = useNavigate();
@@ -33,7 +33,10 @@ const InstrumentCard = ({ instrument }) => {
                         <button
                             className='btn bg-amber-600 border-none text-white hover:bg-cyan-800 hover:shadow-xl'
                             type="button"
-                            onClick={() => navigate(link)}
+                            onClick={() => {
+                                console.log("Navigating to:", instrument?.link); // Debugging
+                                navigate(instrument?.link);
+                            } }
                         >
                             More Info
                         </button>

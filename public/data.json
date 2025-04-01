@@ -25,5 +25,86 @@
         "durationMonths": 8,
         "price": 350,
         "link": "/instruments/violin"
+    },
+    {
+        "id": 4,
+        "image": "https://i.ibb.co/7bkkkVW/IMG-20230927-WA0006.jpg",
+        "instrumentName": "Drums",
+        "description": "Unleash your rhythm and beats on the drums in this energetic course.",
+        "durationMonths": 5,
+        "price": 270,
+        "link": "/instruments/drums"
+    },
+    {
+        "id": 5,
+        "image": "https://i.ibb.co/6ZmhmnJ/IMG-20230927-WA0002.jpg",
+        "instrumentName": "Flute",
+        "description": "Master the flute and create beautiful melodies with this engaging course.",
+        "durationMonths": 6,
+        "price": 290,
+        "link": "/instruments/flute"
+    },
+    {
+        "id": 6,
+        "image": "https://i.ibb.co/MBqRLbW/IMG-20230927-WA0004.jpg",
+        "instrumentName": "Saxophone",
+        "description": "Learn to play soulful tunes on the saxophone with expert instruction.",
+        "durationMonths": 6,
+        "price": 320,
+        "link": "/instruments/saxophone"
+    },
+    {
+        "id": 7,
+        "image": "https://i.ibb.co/rMg37jj/IMG-20230927-WA0009.jpg",
+        "instrumentName": "Trumpet",
+        "description": "Master the trumpet and dazzle audiences with your musical talent.",
+        "durationMonths": 7,
+        "price": 310,
+        "link": "/instruments/trumpet"
+    },
+    {
+        "id": 8,
+        "image": "https://i.ibb.co/MC4xbVC/IMG-20230927-WA0007.jpg",
+        "instrumentName": "Clarinet",
+        "description": "Explore the clarinet and its rich tones in this comprehensive course.",
+        "durationMonths": 5,
+        "price": 260,
+        "link": "/instruments/clarinet"
+    },
+    {
+        "id": 9,
+        "image": "https://i.ibb.co/YWfWLjK/IMG-20230927-WA0000.jpg",
+        "instrumentName": "Cello",
+        "description": "Dive into the world of the cello and create beautiful, resonant music.",
+        "durationMonths": 8,
+        "price": 380,
+        "link": "/instruments/cello"
+    },
+    {
+        "id": 10,
+        "image": "https://i.ibb.co/nfzF6Wr/IMG-20230927-WA0010.jpg",
+        "instrumentName": "Harp",
+        "description": "Discover the ethereal sounds of the harp and master its techniques.",
+        "durationMonths": 7,
+        "price": 350,
+        "link": "/instruments/harp"
+    },
+    {
+        "id": 11,
+        "image": "https://i.ibb.co/N6dfmPQ/IMG-20230927-WA0011.jpg",
+        "instrumentName": "Bass Guitar",
+        "description": "Learn to groove and create rhythm with the bass guitar in this dynamic course.",
+        "durationMonths": 4,
+        "price": 260,
+        "link": "/instruments/bass-guitar"
+    },
+    {
+        "id": 12,
+        "image": "https://i.ibb.co/5ThRv2s/IMG-20230927-WA0013.jpg",
+        "instrumentName": "Accordion",
+        "description": "Explore the expressive world of the accordion and master its distinctive sound.",
+        "durationMonths": 6,
+        "price": 300,
+        "link": "/instruments/accordion"
     }
 ]
