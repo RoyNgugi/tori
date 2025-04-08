@@ -3,7 +3,7 @@ import Banner from "../Banner/Banner";
 import InstrumentCard from "../InstrumentCard/InstrumentCard";
 
 const Home = () => {
-  // Use the data loaded by the loader function
+  // data loaded by the loader function
   const instruments = useLoaderData();
 
   return (
@@ -24,7 +24,7 @@ const Home = () => {
       <div className="container mx-auto px-5 mt-10 mb-20">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
           {
-            // Loop over the instruments and display the first 4
+            // Loop instruments and display the first 4
             instruments.slice(0, 4).map((instrument) => (
               <InstrumentCard key={instrument.id} instrument={instrument} />
             ))

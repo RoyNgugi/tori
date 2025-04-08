@@ -15,19 +15,7 @@ const Footer = () => {
                     <a className="link link-hover">Privacy policy</a>
                     <a className="link link-hover">Cookie policy</a>
                 </nav>
-                <form>
-                    <header className="text-amber-600 font-bold text-xl ">Newsletter</header>
-                    <fieldset className="form-control w-80">
-                        <label className="label">
-                            <span className="label-text text-gray-200">Enter your email address</span>
-                        </label>
-                        <div className="relative w-3/4 md:w-full">
-                            <input type="text" placeholder="Email" className="input input-bordered w-full pr-16" />
-                            <button className="btn bg-amber-600 border-amber-600 text-white absolute top-0 right-0 rounded-l-none">Subscribe</button>
-                        </div>
-                    </fieldset>
-                </form>
-            </footer>
+                            </footer>
 
             <footer className="footer px-5 py-4 border-t container mx-auto">
                 <nav className="md:place-self-center md:justify-center mt-5">
